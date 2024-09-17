@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm a Web Developer.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p> I'm Ananya, a student at Vardhaman College of Engineering, where I am pursuing my passion for technology and engineering. My academic journey has been both exciting and challenging, allowing me to explore various aspects of technology while developing problem-solving and analytical skills. I enjoy diving into subjects like programming, data science, and artificial intelligence, as they allow me to push the boundaries of what technology can achieve.
+
+        Beyond academics, I have a wide range of interests. I love exploring different cultures, ideas, and hobbies, whether it’s through reading, traveling, or connecting with people from various backgrounds. Creativity is an important part of my life, and I enjoy expressing it through writing, storytelling, and sometimes experimenting with art.
+        
+        I’m a firm believer in the value of meaningful connections. Whether it's collaborating with classmates on a project or sharing experiences with friends, I find joy in learning from others and growing through shared knowledge. As I continue my studies, I’m always open to new challenges and opportunities that can help me grow both personally and professionally. My goal is to make a positive impact in the tech world while staying curious and open to new possibilities</p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Recipe App</h3>
+          <p>The Recipe App is a web application designed to help users discover, search for, and manage recipes. It features a home page that displays recipes in a grid or list format, with a search bar to filter recipes by name, ingredient, or category. Users can view detailed information about each recipe, including ingredients, instructions, cooking time, and images.</p>
+        </div>
+        <div class="project">
+          <h3>Responsive Photo Gallery</h3>
+          <p>The Responsive Photo Gallery is a web application that showcases a collection of images in an organized and visually appealing manner. The gallery adapts seamlessly to different screen sizes and devices, ensuring a consistent and user-friendly experience whether on desktops, tablets, or smartphones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
